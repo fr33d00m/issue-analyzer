@@ -21,10 +21,10 @@ public class TermScore {
     private Double score;
 
     public static TermScore create(String keyword, Long positive, Long negative){
-        TermScore wordScore =  new TermScore();
-        wordScore.setTerm(keyword);
-        wordScore.setScore(calculateScore(positive, negative));
-        return wordScore;
+        TermScore termScore =  new TermScore();
+        termScore.setTerm(keyword);
+        termScore.setScore(calculateScore(positive, negative));
+        return termScore;
     }
 
     public static double calculateScore(Long positive, Long negative){
