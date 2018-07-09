@@ -10,10 +10,10 @@ public class TermScoreCache {
     private TermScoreCalculator calculator;
 
     @Autowired
-    private TermScoreRepository wordScoreRepository;
+    private TermScoreRepository termScoreRepository;
 
     public TermScore calculate(String term){
-        Optional<TermScore> byKeyword = wordScoreRepository.findByTerm(term)
+        Optional<TermScore> byKeyword = termScoreRepository.findByTerm(term)
                 .stream()
                 .findFirst();
 
@@ -22,7 +22,7 @@ public class TermScoreCache {
         }
 
         TermScore score = calculator.calculate(term);
-        wordScoreRepository.save(score);
+        termScoreRepository.save(score);
 
         return score;
     }
