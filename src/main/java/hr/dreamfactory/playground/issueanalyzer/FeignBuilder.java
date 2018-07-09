@@ -6,7 +6,7 @@ import com.google.gson.GsonBuilder;
 import feign.Feign;
 import feign.gson.GsonDecoder;
 import feign.gson.GsonEncoder;
-import hr.dreamfactory.playground.issueanalyzer.repositories.SearchAPI;
+import hr.dreamfactory.playground.issueanalyzer.model.github.SearchAPI;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import okhttp3.logging.HttpLoggingInterceptor.Level;

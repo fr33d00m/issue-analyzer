@@ -2,7 +2,6 @@ package hr.dreamfactory.playground.issueanalyzer.model.github;
 
 import hr.dreamfactory.playground.issueanalyzer.model.TermScore;
 import hr.dreamfactory.playground.issueanalyzer.model.TermScoreCalculator;
-import hr.dreamfactory.playground.issueanalyzer.repositories.SearchAPI;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class GithubScoreCalculator implements TermScoreCalculator {

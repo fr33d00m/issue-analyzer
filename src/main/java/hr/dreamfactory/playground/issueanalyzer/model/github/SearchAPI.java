@@ -1,4 +1,4 @@
-package hr.dreamfactory.playground.issueanalyzer.repositories;
+package hr.dreamfactory.playground.issueanalyzer.model.github;
 
 import feign.Param;
 import feign.RequestLine;

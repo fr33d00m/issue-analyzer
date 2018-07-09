@@ -4,7 +4,7 @@ import hr.dreamfactory.playground.issueanalyzer.FeignBuilder;
 import hr.dreamfactory.playground.issueanalyzer.model.github.GithubScoreCalculator;
 import hr.dreamfactory.playground.issueanalyzer.model.TermScoreCache;
 import hr.dreamfactory.playground.issueanalyzer.model.TermScoreCalculator;
-import hr.dreamfactory.playground.issueanalyzer.repositories.SearchAPI;
+import hr.dreamfactory.playground.issueanalyzer.model.github.SearchAPI;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

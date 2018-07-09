@@ -2,6 +2,7 @@ package hr.dreamfactory.playground.issueanalyzer.repositories;
 
 import hr.dreamfactory.playground.issueanalyzer.FeignBuilder;
 import hr.dreamfactory.playground.issueanalyzer.model.github.GithubSearchResponse;
+import hr.dreamfactory.playground.issueanalyzer.model.github.SearchAPI;
 import org.junit.Assert;
 import org.junit.Test;
 
