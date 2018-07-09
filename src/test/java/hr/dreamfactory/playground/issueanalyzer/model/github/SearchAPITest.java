@@ -1,12 +1,12 @@
-package hr.dreamfactory.playground.issueanalyzer.repositories;
+package hr.dreamfactory.playground.issueanalyzer.model.github;
 
 import hr.dreamfactory.playground.issueanalyzer.FeignBuilder;
-import hr.dreamfactory.playground.issueanalyzer.model.github.GithubSearchResponse;
-import hr.dreamfactory.playground.issueanalyzer.model.github.SearchAPI;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class RemoteGithubRepositoryTest {
+import static org.junit.Assert.*;
+
+public class SearchAPITest {
 
     @Test
     public void search_something_nice() throws Exception {
@@ -18,4 +18,5 @@ public class RemoteGithubRepositoryTest {
         Assert.assertNotNull(something);
         Assert.assertNotEquals(new Long(0), something.getTotalCount());
     }
+
 }

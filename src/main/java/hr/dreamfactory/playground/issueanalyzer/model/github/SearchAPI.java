@@ -2,7 +2,6 @@ package hr.dreamfactory.playground.issueanalyzer.model.github;
 
 import feign.Param;
 import feign.RequestLine;
-import hr.dreamfactory.playground.issueanalyzer.model.github.GithubSearchResponse;
 
 public interface SearchAPI {
 
